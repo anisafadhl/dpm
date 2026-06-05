@@ -1,0 +1,20 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+/* Konfigurasi Dark Mode manual */
+@custom-variant dark (&:is(.dark *));
+
+/* Konfigurasi Warna Khusus DPM */
+@theme {
+    --color-dpm-teal: #5db2c1;
+    --color-dpm-grey: #8a8a8a;
+    --color-dpm-dark: #0a0a0a;
+    --color-dpm-card: #141414;
+    --color-dpm-light: #f9fafb;
+
+    --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
