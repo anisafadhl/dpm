@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 PT Duta Parama Mandiri - Web Portofolio (Laravel 12 + Tailwind CSS v4)
 
 Selamat datang di repository resmi website portofolio PT Duta Parama Mandiri! Website ini dirancang untuk menampilkan portofolio proyek arsitektur, desain interior, dan konstruksi perusahaan secara interaktif, modern, dan dinamis menggunakan framework Laravel 12 dan styling tercanggih Tailwind CSS v4 (Vite).
